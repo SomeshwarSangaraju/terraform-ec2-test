@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "someshwar-devops"
-    key    = "remote-state"
+    key    = "terraform-ec2"
     region = "us-east-1"
     use_lockfile = true
     encrypt = true
